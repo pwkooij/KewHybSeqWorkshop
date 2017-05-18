@@ -2,7 +2,8 @@
 
 ### Learning Objectives
 
-1.	Evaluate a sequencing run with Illumina BaseSpace and FASTQC2.	Demultiplex reads, trim adapters, and filter poor quality reads with Trimmomatic.
+1.	Evaluate a sequencing run with Illumina BaseSpace and FASTQC
+2.	Demultiplex reads, trim adapters, and filter poor quality reads with Trimmomatic.
 
 ## Illumina BaseSpace
 
@@ -140,7 +141,7 @@ On the Atmosphere workshop instance, trimmomatic is located here:
 #### Sample Trimmomatic Command
 
 ```
-java -jar ~/Trimmomatic-0.36/trimmomatic-0.35.jar \
+java -jar ~/Trimmomatic-0.36/trimmomatic-0.36.jar \
 PE -phred33 \
 input_forward.fq.gz \
 input_reverse.fq.gz \
