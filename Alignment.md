@@ -237,7 +237,7 @@ To see the full options for FastTree:
 The alignments you have been working with so far have already been cleaned up, so we will compare them to sequences that have not yet been cleaned:
 
 `mkdir fasttree_badseqs`
-`parallel parallel "FastTree -gtr ~/phylogenomics_examples/bad_alignments/{}.badalignment.fasta > fasttree/{}.fasttree.tre" :::: genenames.txt`
+`parallel parallel "FastTree -gtr ~/phylogenomics_examples/bad_alignments/{}.badalignment.fasta > fasttree_badseqs/{}.fasttree.tre" :::: genenames.txt`
 
 To run FastTree in parallel on the cleaned nucleotide sequences:
 
